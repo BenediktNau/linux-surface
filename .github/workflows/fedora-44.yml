@@ -15,7 +15,7 @@ on:
 jobs:
   build:
     name: Build Kernel
-    runs-on: self-hosted
+    runs-on: surface-local
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
